@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stepsToPlay"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/stepsToPlay"
+        android:textColor="#5319B2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/step1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="How to play math game?" />
+
+    <TextView
+        android:id="@+id/step1"
+        android:layout_width="264dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/first"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/step2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1. Select Start Game" />
+
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/second"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/step3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step1"
+        tools:text="2. We have three types of math quizzes. Choose one of them." />
+
+    <TextView
+        android:id="@+id/step3"
+        android:layout_width="348dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/third"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/third1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step2"
+        tools:text="3. Each quizzes need to answer and submit within 20sec. " />
+
+    <TextView
+        android:id="@+id/step4"
+        android:layout_width="342dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/fourth"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/step5"
+        app:layout_constraintEnd_toEndOf="@+id/third1"
+        app:layout_constraintStart_toStartOf="@+id/third1"
+        app:layout_constraintTop_toBottomOf="@+id/third1"
+        tools:text="5. Go to the next quiz using next button. If you use next you can't go back to previous quiz." />
+
+    <TextView
+        android:id="@+id/step5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/fifth"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step4"
+        tools:text="6. When you're done with the quiz, you can see the result and exit or replay." />
+
+    <TextView
+        android:id="@+id/third1"
+        android:layout_width="342dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/textLife"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/step4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step3"
+        tools:text="4. If you unable to do answer in time,You will get extra two life.  " />
+</androidx.constraintlayout.widget.ConstraintLayout>

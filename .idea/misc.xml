@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/ic_exit.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/ic_minus.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/ic_multiply.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/ic_replay.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/ic_sum.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/next_question.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/submit_answer.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/toolbar_corner.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/drawable/white_background.xml" value="0.137" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_addition.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_introdcution.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_main.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_math_game.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_multiplication.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_result.xml" value="0.2171875" />
+        <entry key="..\:/mobileappProjects/MathGames/app/src/main/res/layout/activity_substraction.xml" value="0.2171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
